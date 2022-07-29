@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Edu+VIC+WA+NT+Beginner&family=Indie+Flower&family=Radio+Canada:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background-image: url("../img/8.jpg");
+}
+/*Contenedor de todo*/
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: white;
+    margin-top: 60px;
+    border-top: 6px solid rgba(163, 83, 255, 0.99);
+}
+/*Titulo*/
+.title{
+    font-size: 40px;
+    margin-bottom: 60px;
+    color:#7600fd;
+}
+/*subtitulo*/
+.sub-title{
+    font-size: 30px;
+    font-weight: 400;
+    color:currentColor;
+}
+/*Contenedor de imagen*/
+.container-all img{
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+/*Contenedor de imagen*/
+.pera{
+    width: 160px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*Contenedor de imagen*/
+.wa{
+    width: 160px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*contenedor de todas las etiquetas p*/
+.container-all p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+/*Contenedor de todas las etiquetas b*/
+.container-all b{
+    font-size: 20px;
+    color:#6f00ff;
+    font-weight: normal;
+}
+/*Encabezado o descripcion que parece en el footer, autor y derechos*/
+h3{
+    color:rgba(249, 249. 27, 0.878);
+}
